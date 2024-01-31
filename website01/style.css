@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(3, 41, 66);
+}
+
+.div-1 {
+    background-color: rgb(13, 78, 121);
+    color: rgb(7, 123, 218);
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+}
+.div-1:hover{
+    color: rgb(28, 141, 235);
+}
+
+.footer {
+    background-color: rgb(9, 85, 129);
+    color: rgb(94, 171, 216);
+}
+
+.float {
+    float: left;
+    width: 33.3%
+}
+
+.padding-footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.link-footer {
+    font-size: larger;
+    color: rgba(15, 187, 255, 0.925);
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: beige;
+}
+
+.div-2{
+    background-color: rgb(4, 59, 92);
+    color: rgba(15, 187, 255, 0.925);
+    height: 130px;
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 2%;
+
+}
+
+.div-3{
+    background-color: rgb(4, 59, 92);
+    color: rgba(15, 187, 255, 0.925);
+    height: 130px;
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 2%;
+}
+
+.div-4{
+    background-color: rgb(4, 59, 92);
+    color: rgba(15, 187, 255, 0.925);
+    height: 130px;
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 2%;
+}
+
+.div-5{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+
+}
+
+.button{ 
+    text-align: center;
+    margin: 30px auto;
+}
+
+.button-style{
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(4, 59, 92);
+    padding: 10px 16px;
+}
+.button-style:hover{
+    background-color: white;
+    color: black;
+}
+
+.div-6{
+    background-color: rgb(3, 41, 66);
+    height: 120px;
+    width: 100%;
+    color: white;
+}
+.p-last{
+    padding-top: 40px;
+    text-align: center;
+}
+
