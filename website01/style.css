@@ -25,6 +25,10 @@ body {
     color: rgb(28, 141, 235);
 }
 
+.margin-footer {
+    padding-bottom: 25px;
+}
+
 .footer {
     background-color: rgb(9, 85, 129);
     color: rgb(94, 171, 216);
@@ -53,12 +57,12 @@ body {
 .div-2 {
     background-color: rgb(4, 59, 92);
     color: rgba(15, 187, 255, 0.925);
-    height: 130px;
-    width: 50%;
-    margin: 5% auto;
+    height: 15%;
+    width: 40%;
+    margin: 4% auto;
     text-align: center;
     border-radius: 20px;
-    padding-top: 2%;
+    padding: 1.5%;
 
 }
 
