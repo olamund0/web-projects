@@ -58,6 +58,20 @@ header {
     border-radius: 15px;
     font-family: monospace;
     font-size: 15px;
+    cursor: default;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadown, transform;
+    transition-property: box-shadown, transform;
+}
+
+.index-content:hover,
+.index-content:focus,
+.index-content:active {
+    box-shadow: 0 0 20px rgba(87, 201, 247, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .highlight-text {
@@ -85,12 +99,12 @@ header {
     border-radius: 15px;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .button:hover {
-    background-color: rgb(6, 71, 109);
+    background-color: rgb(10, 77, 119);
 }
+
 
 footer {
     width: 100%;
