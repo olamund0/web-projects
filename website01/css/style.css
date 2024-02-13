@@ -20,7 +20,7 @@ header {
 .header-link {
     color: rgb(51, 160, 250);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bolder;
 
 }
@@ -67,8 +67,8 @@ header {
 
 .info {
     text-align: center;
-    margin-top: 6%;
-    margin-bottom: 2%;
+    margin-top: 80px;
+    margin-bottom: 25px;
     font-family: monospace;
 }
 
@@ -78,7 +78,7 @@ header {
 }
 
 .button {
-    background-color: rgb(10, 100, 151);
+    background-color: rgb(11, 132, 207);
     padding: 11px;
     text-decoration: none;
     color: white;
@@ -101,26 +101,51 @@ footer {
     font-size: medium;
 }
 
-.h2-services {
+.h1-style {
     margin: 2%;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .list-top {
     color: rgb(51, 160, 250);
-    font-size: large;
-    margin-left: 24%;
+    font-size: larger;
     font-weight: bolder;
+    margin-left: -40px;
 }
 
 li {
-    margin: 2%;
+    margin: 15px;
 }
 
 .lists {
-    margin: 1% 28%;
-    margin-bottom: 6.5%;
+    margin-left: 25%;
+    margin-bottom: 7%;
     font-size: 17px;
+}
+
+.hour {
+    background-color: rgb(10, 60, 88);
+    width: 36%;
+    text-align: center;
+    margin: 5% auto;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.contact {
+    text-align: center;
+    margin: 5% auto;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.contact-highlight {
+    margin: 3px;
+    font-size: 25px;
+    color: rgb(51, 160, 250);
+    font-weight: bolder;
 }
